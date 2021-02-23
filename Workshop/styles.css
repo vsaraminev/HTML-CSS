@@ -1,0 +1,176 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+   font-family: Arial, sans-serif, sans-serif;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: black;
+}
+
+header {
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(./assets/bg.jpg);
+   color: white;
+   width: 100%;
+   height: 100vh;
+   text-align: center;
+   position: relative;
+}
+
+header::after {
+   content: 'Sign In';
+   background-color: #e50914;
+   padding: 5px 15px;
+   border-radius: 4px;
+   position: absolute;
+   top: 20px;
+   right: 40px;
+}
+
+.header-logo {
+   width: 10%;
+   position: absolute;
+   top: 20px;
+   left: 40px;
+}
+
+.header-logo img {
+   width: 100%;
+}
+
+.header-title {
+   max-width: 600px;
+   margin: 0 auto;
+   padding-top: 150px;
+   font-size: 50px;
+}
+
+.header-subtitle {
+   font-size: 20px;
+   font-weight: 400;
+   margin-top: 10px;
+}
+
+header p {
+   font-size: 16px;
+}
+
+.header-input {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.header-input input {
+    width: 500px;
+    height: 36px;
+    border: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 5px;
+}
+
+.header-input button {
+   background-color: #e50914;
+   border: 0;
+   color: white;
+   padding: 10px 20px;
+   font-size: 22px;
+   margin-left: -3px;
+}
+
+.item {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 60px 80px 50px 50px;
+    border-top: 5px solid #222222;
+}
+
+.item-content {
+   width: 40%;
+}
+
+.item-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.item-content p {
+    font-size: 20px;
+}
+
+.item-content-img {
+    width: 40%;
+}
+
+.item-content-img img {
+    width: 100%;
+}
+
+.questions {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    border-top: 5px solid #222222;
+    border-bottom: 5px solid #222222;
+    padding-bottom: 50px;
+}
+
+.questions ul {
+    margin: 0 auto;
+    width: 55%;
+}
+
+.questions ul li p {
+    margin: 15px;
+}
+
+.questions ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #303030;
+    padding: 0 30px;
+    margin: 0 0 10px 0;
+}
+
+.questions-watch .header-input {
+    width: 55%;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+.questions-watch p {
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+footer {
+    color: #757575;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding-top: 30px;
+}
+
+footer p {
+    flex-basis: 100%;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    padding-bottom: 20px;
+}
