@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.car-header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.car-header h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.car-main {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0 auto;
+}
+
+.car-main-content {
+    width: 60%;
+    margin-right: 30px;
+}
+
+.car-main-content h3 {
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.car-main-content p {
+    color: #8C8C8C;
+    line-height: 1.5;
+}
+
+.car-main-image {
+    width: 45%;
+}
+
+.car-main-image img {
+    width: 100%;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    color: #8C8C8C;
+    margin-bottom: 5px;
+}
+
+.benefit h4, .benefit p {
+    margin: 0;
+}
+
+.benefit p {
+    margin-top: 5px;
+}
+
+.benefit-img {
+    width: 10%;
+    margin-right: 5px;
+}
+
+.benefit-img img {
+    width: 100%;
+}
