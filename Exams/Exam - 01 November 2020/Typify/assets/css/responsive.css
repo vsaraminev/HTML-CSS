@@ -1,0 +1,59 @@
+@media all and (max-width: 600px) {
+   .banner {
+      padding: 60px 0px 20px 0px;
+   }
+
+   .banner h2 {
+      width: 95%;
+      font-size: 1.5em;
+   }
+
+   ul.actions li:last-child,
+   .actions li {
+      width: 100%;
+   }
+
+   .banner .button.special,
+   .grid-form .form-control.narrow,
+   .actions li input,
+   .feature {
+      width: 95%;
+   }
+
+   .wrapper {
+      padding: 40px 0px 20px 0;
+   }
+
+   .wrapper > .inner,
+   .wrapper > .inner.narrow {
+      width: unset;
+   }
+
+   header.major {
+      margin-bottom: 10px;
+   }
+
+   .features,
+   .grid-form {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   textarea {
+      margin: 0 auto;
+      width: 95%;
+   }
+
+   .footer {
+      padding: 30px 0;
+   }
+
+   .footer:before {
+      width: 100%;
+      left: unset;
+   }
+
+   .footer .copyright {
+      margin: 0;
+   }
+}
