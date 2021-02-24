@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+   font-family: 'Lato', sans-serif;
+}
+
+body {
+   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 80px 5px 80px;
+}
+
+.navigation-logo {
+   width: 10%;
+}
+
+.navigation-logo img {
+   width: 100%;
+}
+
+.navigation ul {
+   display: flex;
+   list-style-type: none;
+}
+
+.navigation ul li {
+   color: #54546d;
+   font-weight: bold;
+   padding-right: 20px;
+   font-size: 14px;
+}
+
+.fees {
+   background-color: #54546d;
+   width: 100%;
+   height: 300px;
+   color: white;
+   text-align: center;
+   position: relative;
+}
+
+.fees h2 {
+   margin: 0;
+   padding: 60px 0px 40px 0px;
+   letter-spacing: 1.5px;
+   font-size: 30px;
+}
+
+.fees-calc {
+   position: absolute;
+   top: 50px;
+   left: -70px;
+}
+
+.courses {
+   display: flex;
+   justify-content: space-around;
+   padding: 0px 80px;
+}
+
+.course {
+   width: 380px;
+   background-color: white;
+   color: #54546d;
+   border-radius: 10px;
+   box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.5);
+}
+
+.course h2 {
+   padding: 30px 0px 10px 0px;
+   font-size: 22px;
+}
+
+.course:first-child p {
+    margin-top: 14px;
+}
+
+.course:first-child p:first-child {
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+
+.course button {
+   background-color: #9a5dc6;
+   border: none;
+   padding: 12px 32px;
+   border-radius: 20px;
+   color: white;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-bottom: 41px;
+}
+
+.course-content {
+    padding: 0 10px;
+}
+
+.course-price {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   color: white;
+}
+
+.course-price-onsite,
+.course-price-online {
+   padding: 0 10px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.course-price-online::before {
+    content: '';
+    border-left: 1px solid white;
+    position: absolute;
+    height: 74px;
+    top: 8px;
+    left: 0px;
+}
+
+.course-price span {
+    height: 100px;
+}
+
+.courses-info {
+   width: 70%;
+   margin: 200px auto 30px auto;
+   color: #54546d;
+}
+
+.courses-info ul {
+   padding: 20px 0px;
+}
+
+.courses-info ul li {
+   list-style-type: none;
+   padding: 13px 60px 13px 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.courses-info ul li:nth-child(odd) {
+   background-color: #e6e6e6;
+}
+
+.courses-info ul li:nth-child(even) {
+   background-color: #f8f8f8;
+}
+
+.courses-info ul li:first-child {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.courses-info ul li:last-child {
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.courses-info ul li p {
+   margin: 0;
+}
+
+i {
+   font-size: 22px;
+}
+
+.fa-check {
+   color: green;
+}
+
+.fa-times {
+   color: red;
+}
+
+.bank {
+    width: 85%;
+    margin: 0 auto;
+   color: #54546d;
+}
+
+.marks {
+    width: 22%;
+}
+
+.bank-content, .marks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bank-image {
+    padding-left: 30px;
+}
+
+footer {
+    background-color: #54546D;
+    color: #848FAA;
+    text-align: center;
+    margin-top: 100px
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.green {
+   background: rgb(4, 155, 62);
+   background: linear-gradient(
+      90deg,
+      rgba(4, 155, 62, 1) 45%,
+      rgba(40, 185, 95, 1) 67%,
+      rgba(74, 214, 127, 1) 100%
+   );
+}
+
+.blue {
+   background: rgb(76, 108, 137);
+   background: linear-gradient(
+      90deg,
+      rgba(76, 108, 137, 1) 45%,
+      rgba(87, 132, 173, 1) 67%,
+      rgba(97, 154, 206, 1) 100%
+   );
+}
+
+.violet {
+   background: rgb(75, 56, 166);
+   background: linear-gradient(
+      90deg,
+      rgba(75, 56, 166, 1) 45%,
+      rgba(108, 92, 196, 1) 67%,
+      rgba(139, 124, 225, 1) 100%
+   );
+}
