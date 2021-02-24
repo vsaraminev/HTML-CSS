@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+header {
+   color: #9d9d9d;
+   padding-top: 20px;
+}
+
+.header-nav ul {
+   display: flex;
+   justify-content: space-around;
+}
+
+.header-nav ul li {
+   list-style: none;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.wireless {
+   margin-top: 100px;
+   padding-left: 8px;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.wireless-content {
+   width: 50%;
+   padding-left: 80px;
+}
+
+.wireless-image {
+   width: 46%;
+   overflow: hidden;
+}
+
+.wireless-image img {
+   width: 100%;
+   margin: 0px 0px 0px 15px;
+}
+
+.wireless-content-title {
+   font-size: 56px;
+   text-transform: uppercase;
+   font-weight: normal;
+   margin-bottom: 30px;
+}
+
+.wireless-content-description {
+   max-width: 80%;
+   line-height: 2;
+   padding-bottom: 25px;
+}
+
+button {
+   text-transform: uppercase;
+   color: white;
+   background-color: #ff0000;
+   border: none;
+   padding: 15px 50px;
+   border-radius: 25px;
+}
+
+.powerbeats {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 130px;
+}
+
+.powerbeats-image {
+   width: 32%;
+   padding-left: 80px;
+}
+
+.powerbeats-image img {
+    width: 100%;
+ }
+
+.powerbeats-content {
+    width: 38%;
+}
+
+.powerbeats-content h3 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.powerbeats-content-description {
+    padding: 50px 0px 30px 0px;
+}
+
+.performance {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-left: 75px;
+    line-height: 1.8;
+}
+
+.performance span {
+    font-weight: bold;
+}
+
+.price {
+    margin-top:60px;
+}
+
+.price p {
+    font-size: 35px;
+    font-weight: bolder;
+    display: inline-block;
+    margin: 0;
+    padding-right: 20px;
+} 
+
+.price button {
+    vertical-align: bottom;
+}
+
+.free-music {
+    width: 100%;
+    background-color: #575757;
+    text-align: center;
+}
+
+.free-music p {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
