@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+   font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.price {
+   font-family: 'Montserrat', sans-serif;
+}
+
+section {
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   margin: 80px auto;
+}
+
+.article-content {
+   background-color: #e3f3fd;
+   border-radius: 10px;
+   padding: 20px 30px;
+   box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.4);
+}
+
+.article-content h2 {
+   color: #445263;
+}
+
+.article-content ul {
+    padding: 0;
+}
+
+.article-content ul li {
+   color: #82878b;
+   line-height: 2;
+   list-style: none;
+}
+
+.article-content ul li::before {
+   font-family: 'Font Awesome 5 Free';
+   font-weight: 900;
+   content: '\f00c';
+   color: #44a9f8;
+   padding-right: 20px;
+}
+
+.article-price {
+    border: 5px solid #44a9f8;
+    border-radius: 10px;
+    padding: 30px 70px;
+    text-align: center;
+}
+
+.article-price p:nth-child(2) {
+    font-size: 20px;
+    color: #82878b;
+    font-weight: bold;
+}
+
+.price {
+    color: #44a9f8;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.price span {
+    color: #82878b;
+}
+
+.price span {
+    font-size: 26px;
+}
+
+.article-price button {
+    border: none;
+    background-color: #44a9f8;
+    color:  white;
+    font-weight: bold;
+    padding: 10px 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
