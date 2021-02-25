@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+   margin: 0;
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(./image.jpg);
+   text-align: center;
+}
+
+.login {
+   margin: 100px auto;
+}
+
+.login h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.login-form {
+    width: 25%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.login-form p {
+    color: #7D7D7F;
+    padding: 20px 20px 10px 20px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: baseline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+i {
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+button {
+    padding: 15px 50px;
+    border: none;
+    background-color: #D41872;
+    color:  white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
