@@ -1,0 +1,164 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, .header-navigation ul, header article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+header {
+    color: #2C383B;
+}
+
+header article h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+header article p {
+    padding-left: 10px;
+}
+
+header article h1::after {
+    content: '';
+    border-right: 2px solid #BCBCBC;
+    padding-left: 10px;
+}
+
+.header-navigation ul li {
+    list-style: none;
+    background-color: #ECECEC;
+    padding: 20px;
+    margin-right: 3px;
+}
+
+.header-navigation ul li:nth-child(1) {
+    color: white;
+    background-color: #E24E2A;
+}
+
+.header-logo p {
+    color: #92A5B8;
+}
+
+.main-banner {
+    width: 100%;
+}
+.main-banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.main-template {
+    background-color: #E24E2A;
+    color: white;
+    text-align: center;
+    height: 150px;
+    padding-top: 70px;
+}
+
+.main-template p {
+    margin: 0 auto;
+    width: 80%;
+    line-height: 2;
+}
+
+.main-template p span {
+    text-decoration: underline;
+}
+
+.main-template p span:nth-child(1) {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-items {
+    display: flex;
+    justify-content: space-around;
+    background-color: #383838;
+    padding: 80px 30px;
+}
+
+.item, .last-item {
+    width: 23%;
+    text-align: center;
+}
+
+.item h3, .last-item h3 {
+    color: white;
+}
+
+.item p, .last-item p {
+   color: #63615F;
+   line-height: 1.5;
+   border-top: 1px solid #63615F;
+   padding-top: 15px;
+   font-size: 15px;
+}
+
+i {
+    color: white;
+    padding: 20px;
+    background-color: #E24E2A;
+    font-size: 65px;
+}
+
+.main-etiam {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.main-etiam h2 {
+    font-size: 30px;
+    margin: 0;
+    color: #555555;
+}
+
+.main-etiam p {
+    color: #A2A4A6;
+    margin-top: 5px;
+}
+
+.main-etiam button {
+    background-color: #1B9772;
+    color: white;
+    padding: 20px 50px;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.last-item h3 {
+    font-size: 22px;
+}
+
+.last-item p {
+    border-top: 0;
+}
+
+footer {
+    background-color: #1B9772;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 80px 0;
+    color: #5AB398;
+    font-size: 14px;
+}
+
+footer p span {
+    color: #A2D4C5;
+}
