@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+   font-family: 'Lato', sans-serif;
+}
+
+body {
+   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Montserrat', sans-serif;
+}
+header {
+   background: linear-gradient(
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.7)
+      ),
+      url(./images/hero-certificates.jpg);
+}
+
+.header-nav {
+   width: 85%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   box-shadow: 0px 8px 17px 0px rgba(0, 0, 0, 0.4);
+   padding: 0 20px;
+}
+
+.header-logo {
+   width: 10%;
+}
+
+.header-logo img {
+   width: 100%;
+}
+
+.header-nav-tab ul {
+   display: flex;
+   margin-top: 0;
+}
+
+.header-nav-tab ul li {
+   list-style: none;
+   padding: 10px;
+   color: #535f6f;
+   border-top: 5px solid white;
+}
+
+.header-nav-tab ul li:nth-child(3) {
+   border-top: 5px solid #42abf8;
+}
+
+.header-nav-tab ul li:last-child {
+   background-color: #42abf8;
+   border-radius: 50%;
+   color: white;
+   box-shadow: 0px 8px 17px 0px rgba(66, 171, 248, 0.4);
+   padding: 12px 10px;
+}
+
+.header-cert {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 60px;
+}
+
+.header-cert-content {
+   background-color: #29394b;
+   color: white;
+   width: 45%;
+   padding: 20px;
+   border-radius: 10px;
+}
+
