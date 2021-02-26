@@ -8,7 +8,7 @@ html {
 body {
    margin: 0;
    background: url(./Requirements-and-Resources/Media/background.jpg);
-   object-fit: cover;
+   background-size: cover;
 }
 
 .header-navigation {
@@ -56,6 +56,8 @@ body {
    text-align: center;
    background: url(./Requirements-and-Resources/Media/craving.jpg);
    color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .header-banner h2 {
@@ -72,14 +74,16 @@ body {
 
 .header-banner-search input {
    width: 22%;
-   height: 25px;
-   filter: opacity(70%);
+   height: 30px;
    border: none;
 }
 
 .header-banner-search i {
    color: #918a8a;
    position: absolute;
+   padding-left: 10px;
+   top: 8px;
+   color: #554938;
 }
 
 main {
@@ -145,6 +149,7 @@ button {
     width: fit-content;
     margin: 30px auto 10px auto;
     padding: 8px 30px;
+    filter: opacity(80%);
 }
 
 .items {
@@ -162,11 +167,11 @@ button {
 .item-image {
     width: 100%;
     background-color: #DBDCDA;
-    filter: opacity(80%);
 }
 
 .item-image img {
     width: 100%;
+    height: 100%;
 }
 
 .item-content {
@@ -194,7 +199,7 @@ footer {
     color: #554938;
     padding: 20px 0;
     background-color: #DBDCDA;
-    filter: opacity(60%);
+    filter: opacity(80%);
 }
 
 footer ul {
@@ -204,4 +209,8 @@ footer ul {
 footer ul li {
     list-style-type: none;
     padding: 0 10px;
+}
+
+footer ul li:not(:last-child) {
+    border-right: 1px solid #9C9D9C;
 }
