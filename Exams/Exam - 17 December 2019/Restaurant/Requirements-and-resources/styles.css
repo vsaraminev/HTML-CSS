@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+   background-color: #ffd9b0;
+}
+
+.restaurant {
+   width: 70%;
+   display: flex;
+   margin: 50px auto;
+   background-color: #111111;
+   border-radius: 15px;
+}
+
+.restaurant-image {
+   width: 50%;
+}
+
+.restaurant-image img {
+   width: 100%;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+
+.restaurant-form {
+   width: 50%;
+   color: white;
+   padding-top: 30px;
+}
+
+.restaurant-form h2 {
+    text-align: center;
+}
+form {
+   padding-bottom: 40px;
+   text-align: center;
+}
+
+input {
+   width: 80%;
+   background-color: transparent;
+   border: none;
+   padding: 30px 0px 5px 0px;
+   border-bottom: 1px solid #a4b0a2;
+}
+
+::placeholder {
+   color: #a4b0a2;
+   font-size: 14px;
+}
+
+button {
+   border: none;
+   background-color: #EDB77D;
+   color: white;
+   font-weight: bold;
+   border-radius: 5px;
+   padding: 15px 40px;
+   margin-left: 45px;
+}
