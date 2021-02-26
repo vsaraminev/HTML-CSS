@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.earth {
+   width: 60%;
+   margin: 30px auto;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.earth-header {
+   background-color: #001216;
+   width: 100%;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.earth-header h1 {
+   color: #02f1fc;
+   font-size: 40px;
+   margin: 0;
+}
+
+.earth-header p {
+   margin: 0;
+   color: white;
+   font-size: 22px;
+}
+
+.earth-main {
+   padding: 30px;
+}
+
+.earth-main-content {
+   width: 50%;
+   display: inline-block;
+   padding-left: 40px;
+   vertical-align: top;
+}
+
+.earth-main-image {
+   width: 30%;
+   border: 1px solid black;
+   padding: 10px 20px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.earth-main-image img {
+   width: 100%;
+}
+
+.earth-main-image p {
+   line-height: 1.5;
+   letter-spacing: 1.5px;
+   margin: 0;
+   font-size: 14px;
+}
+
+.earth-main-content p {
+   font-size: 19px;
+   line-height: 1.5;
+   letter-spacing: 1.5px;
+   margin: 0;
+}
+
+.earth-footer h2 {
+   background-color: #00111b;
+   color: white;
+   padding: 10px;
+   width: fit-content;
+   margin: 0;
+}
+
+.earth-footer-facts {
+   background-color: #d9ebeb;
+}
+
+.earth-footer-facts ul {
+   margin: 0;
+   padding: 20px;
+}
+
+.earth-footer-facts ul li {
+   list-style-type: none;
+   font-size: 20px;
+}
+
+.earth-footer-facts ul li span {
+   font-weight: bold;
+}
