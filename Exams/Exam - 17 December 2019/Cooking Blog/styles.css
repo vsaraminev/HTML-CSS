@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+   font-family: 'Gelasio', serif;
+}
+
+body {
+   margin: 0;
+   background: url(./Requirements-and-Resources/Media/background.jpg);
+   object-fit: cover;
+}
+
+.header-navigation {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+   background-color: #e6e3de;
+   color: #554938;
+}
+
+.header-navigation-logo h1 {
+   font-size: 28px;
+   margin: 10px 0;
+}
+
+.header-navigation-middle ul,
+.header-navigation-right ul,
+.party,
+.cookies,
+.items {
+   display: flex;
+}
+
+.header-navigation-middle ul li,
+.header-navigation-right ul li {
+   list-style-type: none;
+   padding: 10px;
+}
+
+.header-navigation-right ul {
+   align-items: center;
+}
+
+.header-navigation-right ul li:first-child {
+   background-color: #554938;
+   color: white;
+   padding: 8px;
+   font-size: 14px;
+   margin-right: 20px;
+}
+
+.header-banner {
+   height: 400px;
+   text-align: center;
+   background: url(./Requirements-and-Resources/Media/craving.jpg);
+   color: white;
+}
+
+.header-banner h2 {
+   margin: 0;
+   font-size: 36px;
+   padding-top: 100px;
+   padding-bottom: 10px;
+}
+
+.header-banner-search {
+   padding-bottom: 50px;
+   position: relative;
+}
+
+.header-banner-search input {
+   width: 22%;
+   height: 25px;
+   filter: opacity(70%);
+   border: none;
+}
+
+.header-banner-search i {
+   color: #918a8a;
+   position: absolute;
+}
+
+main {
+   padding: 80px 0;
+}
+
+.party, .cookies {
+   width: 80%;
+   margin: 0px auto;
+   background-color: #e6e3de;
+   align-items: center;
+}
+
+.party-image, .cookies-image {
+   width: 60%;
+}
+
+.party-image img, .cookies-image img {
+   width: 100%;
+}
+
+.party-content, .cookies-content {
+   width: 40%;
+   text-align: center;
+}
+
+.cookies {
+    margin-top: 40px
+}
+
+.cookies-content {
+    padding: 0 20px;
+}
+
+.party-content h2, .cookies-content h2 {
+   font-size: 30px;
+   margin: 0;
+}
+
+.party-content p, .cookies-content p {
+   font-size: 24px;
+   font-weight: bold;
+   margin: 0;
+}
+
+button {
+    background-color: #554938;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-top: 20px;
+    border: none;
+}
+
+.toolbox {
+    color: #554938;
+    width: 100%;
+    text-align: center;
+}
+
+.toolbox h2 {
+    background-color: #DBDCDA;
+    width: fit-content;
+    margin: 30px auto 10px auto;
+    padding: 8px 30px;
+}
+
+.items {
+    width: 70%;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-image {
+    width: 100%;
+    background-color: #DBDCDA;
+    filter: opacity(80%);
+}
+
+.item-image img {
+    width: 100%;
+}
+
+.item-content {
+    text-align: center;
+    font-style: italic;
+    background-color: #DBDCDA;
+    filter: opacity(80%);
+}
+
+.item-content p {
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.toolbox-btn {
+    color: white;
+    background-color: #DB4D35;
+    padding: 10px 90px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: #554938;
+    padding: 20px 0;
+    background-color: #DBDCDA;
+    filter: opacity(60%);
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 0 10px;
+}
