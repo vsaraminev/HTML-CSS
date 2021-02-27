@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+   font-family: 'Lato', sans-serif;
+}
+
+body {
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.wrapper {
+   max-width: 80%;
+   margin: 0 auto;
+}
+
+header {
+   background-color: #234465;
+}
+
+.header-navigation {
+   display: flex;
+   justify-content: space-between;
+   color: white;
+}
+
+.header-navigation ul {
+   display: flex;
+   align-items: center;
+   margin: 0;
+}
+
+.header-navigation ul:last-child {
+   color: #91a1b2;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+.header-navigation ul:first-child li:first-child {
+   max-width: 120px;
+}
+
+.header-navigation ul:first-child li:first-child img {
+   width: 100%;
+}
+
+.header-navigation ul li {
+   list-style: none;
+   padding: 10px;
+}
+
+button {
+   color: white;
+   background-color: #ffa000;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 20px;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.header-modules {
+   background-color: white;
+   padding-left: 180px;
+}
+.header-modules {
+   display: flex;
+}
+
+.header-modules p {
+   padding: 20px;
+   margin: 0;
+}
+
+.header-modules p:first-child {
+   color: #c9823e;
+}
+
+.header-modules p:last-child {
+   color: #424f66;
+   font-weight: bold;
+   position: relative;
+}
+
+.header-modules p:last-child::after {
+   content: '';
+   border-bottom: 2px solid #424f66;
+   position: absolute;
+   width: 220px;
+   bottom: 10px;
+   left: 20px;
+}
+
+.header-info {
+   background: url(https://softuni.bg/Content/images/trainings/details-background.png);
+   height: 300px;
+   background-position: center;
+   color: white;
+}
+
+.header-info h1 {
+   margin: 0;
+   font-size: 40px;
+   text-align: center;
+   font-weight: bolder;
+   padding-top: 20px;
+}
+
+.header-info ul {
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   padding: 10px 0;
+}
+
+.header-info ul li {
+   display: flex;
+   list-style: none;
+   justify-content: flex-end;
+   padding: 0 10px;
+}
+
+.header-info ul li p {
+   margin: 0;
+}
+
+.header-info ul li i {
+   font-size: 20px;
+   padding-right: 5px;
+}
