@@ -1,0 +1,50 @@
+body {
+    background: rgb(238, 238, 238);
+    margin: 30px 200px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+aside {
+    float: right;
+    padding-left: 30px;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    border: 2px solid black;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.pic1 {
+    float: right;
+    margin-left: 10px;
+    height: 200px;
+}
+
+.pic2 {
+    float: left;
+    margin-right: 10px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    color: green;
+}

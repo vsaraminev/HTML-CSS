@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, aside, footer {
+    box-shadow: 0px 0px 10px 0px #000000;
+    border-radius: 5px;
+    margin: 15px;
+    padding-left: 10px;
+}
+
+header {
+    flex-basis: 80px;
+}
+
+footer {
+    flex-basis: 60px;
+}
+
+header, footer {
+    flex-grow: 1;
+}
+
+main, aside {
+    flex-basis: 150px;
+}

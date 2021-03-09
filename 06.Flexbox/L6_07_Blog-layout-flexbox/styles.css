@@ -1,0 +1,55 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.header-title {
+    text-transform: uppercase;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+blockquote, h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+.first-image {
+    float: right;
+}
+
+.second-image {
+    float: left;
+}
+
+blockquote {
+    float: right;
+    width: 45%;
+    font-style: italic;
+    border-left: 2px solid lightgrey;
+    padding-left: 20px;
+    margin-top: 0;
+    color: grey;
+}
+
+.author {
+    float: right;
+}

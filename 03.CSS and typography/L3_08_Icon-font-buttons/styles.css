@@ -1,0 +1,26 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+.button {
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 50px;
+    cursor: pointer;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .orange {
+    background-color: orange;
+  }
+
+  .far {
+      margin-right: 3px;
+  }

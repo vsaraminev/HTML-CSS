@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 30px 150px;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.pic1 {
+    float: right;
+    margin-left: 10px;
+}
+
+.pic2 {
+    float: left;
+    margin-right: 10px;
+}
+
+.paragraph-one {
+    float: left;
+    width: 500px;
+    border-right: 2px solid lightgrey;
+    padding-right: 20px;
+}
+
+blockquote {
+    width: 440px;
+    font-style: italic;
+    float: right;
+}
+
+.paragraph-three {
+    clear: both;
+}

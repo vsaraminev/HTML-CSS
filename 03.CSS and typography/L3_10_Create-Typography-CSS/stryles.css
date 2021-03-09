@@ -1,0 +1,32 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+body {
+    margin: 50px;
+}
+/* .vl {
+    border-left: 4px solid rgb(145, 153, 160);
+    height: 130px;
+    margin-left: 50px;
+  } */
+
+  article {
+    padding: 1px 10px 0px 15px;
+  }
+
+  article p:nth-child(3) {
+     text-align: right;
+  }
+
+  blockquote {
+    border-left-color: rgb(221, 221, 221);
+    font-style: italic;
+    border-left-style: solid;
+  }
